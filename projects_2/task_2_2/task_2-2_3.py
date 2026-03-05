@@ -1,0 +1,5 @@
+device_name = input("название прибора:")
+number = input("инвентарный номер:")
+state = input("исправен/не исправен:")
+how_many = input("количество:")
+print(f"прибор\t\t{device_name}\nинв.номер\t{number}\nсостояние\t{state}\nколичество\t{how_many}")
